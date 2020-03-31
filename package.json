@@ -1,0 +1,23 @@
+{
+  "name": "assessment-project",
+  "version": "1.0.0",
+  "description": "search engine project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesabustan/search-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesabustan/search-engine/issues"
+  },
+  "homepage": "https://github.com/jamesabustan/search-engine#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

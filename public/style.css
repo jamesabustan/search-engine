@@ -1,0 +1,53 @@
+/* Colour Palette
+Grey #aaaaaa
+Dark Matt Pink #e37398
+Muted Pink #f0c1cc
+Light Pink #fee2e9
+Vibrant Pink #fe7ea8
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Questrial', sans-serif;
+    box-sizing: border-box;
+}
+
+h4 {
+    color: #fe7ea8;
+}
+
+#searchButton,
+#tryButton {
+    background-color: #f0c1cca;
+    color: #aaaaaa;
+    border-radius: 7px;
+    padding: 6px;
+
+}
+footer {
+    background-color: #fe7ea8;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    width: fit-content;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
