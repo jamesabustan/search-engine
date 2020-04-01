@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded",function(){
         fetch("/search")
         .then(function (response){
             return response.json();
-        }).then((data) => {
-            console.log(data);
+        }).then((json) => {
+            console.log(json);
           });
     });
     document.getElementById("tryButton").addEventListener("click", function(){
