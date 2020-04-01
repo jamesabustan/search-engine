@@ -19,19 +19,24 @@ h4 {
 
 #searchButton,
 #tryButton {
-    background-color: #f0c1cca;
-    color: #aaaaaa;
+    color: #e37398;
     border-radius: 7px;
-    padding: 6px;
+    margin: 5px;
+    background-color: #f0c1ca;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+
 
 }
 footer {
     background-color: #fe7ea8;
     color: white;
     height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .container {
@@ -44,10 +49,30 @@ footer {
 
 .search {
     display: flex;
-    width: fit-content;
+    width: 100%;
+    max-width: 500px;
 }
+
+.search i {
+    position: absolute;
+    margin: 27px 20px;
+    opacity: 0.5;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 20px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: lightgray;
+    padding-left: 50px;
+    font-size: 16px;
+  }
 
 .buttons {
     display: flex;
     justify-content: space-between;
+    
 }
