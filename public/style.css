@@ -17,6 +17,10 @@ h4 {
     color: #fe7ea8;
 }
 
+#logoID {
+    width: 300px;
+}
+
 #searchButton,
 #tryButton {
     color: #e37398;
@@ -70,6 +74,10 @@ input[type="text"] {
     border-color: lightgray;
     padding-left: 50px;
     font-size: 13px;
+  }
+  
+input[type="text"]:focus {
+    outline: 0;
   }
 
 .buttons {
