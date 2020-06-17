@@ -1,6 +1,8 @@
+<%- include ('partials/header') %>
 <h1> Result's Page</h1>
 <% results["items"].forEach(searchData => { %>
     <li> <%= searchData['title'] %> </li>
     <a href="searchData['link']> <%= searchData['link'] %> </a>
     <li> <%= searchData['snippet'] %> </li>
-<% })%>
+<% }) %>
+<%- include ('partials/footer') %>
