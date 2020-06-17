@@ -1,8 +1,14 @@
 <%- include ('partials/header') %>
-<h1> Result's Page</h1>
-<% results["items"].forEach(searchData => { %>
-    <li> <%= searchData['title'] %> </li>
-    <a href="searchData['link']> <%= searchData['link'] %> </a>
-    <li> <%= searchData['snippet'] %> </li>
-<% }) %>
+<div class="container2">
+    <h1> Result's Page</h1>
+    <div class="list">
+        <% results["items"].forEach(searchData => { %>
+            <ul>
+            <li> <%= searchData['title'] %> </li>
+            <a href="searchData['link']> <%= searchData['link'] %> </a>
+            <li> <%= searchData['snippet'] %> </li>
+            </ul>
+    <% }) %>
+    </div>
+</div>
 <%- include ('partials/footer') %>

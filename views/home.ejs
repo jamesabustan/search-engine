@@ -1,16 +1,22 @@
 <%- include ('partials/header') %>
     <div class="container">
+
         <div class="logo">
             <img id="logoID" src="./LogoFlare.png" alt="">
         </div>
 
-        <div class="search">
+
             <form action="/results" method="get">
-                <input id="searchBar" name="search" type="text" placeholder="Search or Enter URL"/>
-                <i class="material-icons">search</i>
-                <button id="searchButton" type="submit">Search</button>
-                <button id="tryButton">Try Me</button>
+                <div class="search">
+                    <input id="searchBar" name="search" type="text" placeholder="Search or Enter URL"/>
+                    <i class="material-icons">search</i>
+                </div>
+                <div class="buttons">
+                    <button id="searchButton" type="submit">Search</button>
+                    <button id="tryButton">Try Me</button>
+                </div>
             </form> 
         </div>
     </div>
 <%- include ('partials/footer') %>
+ 
